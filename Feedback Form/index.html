@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="./img/logo.png" alt="Mospolytech">
+        <h1>Feedback form</h1>
+    </header>
+    <main>
+        <div class="container">
+            <form action="https://httpbin.org/post" method="post">
+                <!-- <input type="hiddrn" name="method" value="DELETE"> -->
+                <div class="mb-3">
+                    <label for="name">Enter your name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="female">Enter your female</label>
+                    <input type="text" name="female" id="female">
+                </div>
+                <div class="mb-3">
+                    <label for="email">Enter your email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="mb-3">
+                    <textarea name="desc" id="" cols="30" rows="10">
+                        desc
+                    </textarea>
+                </div>
+                <button type="sybmit">Send</button>
+            </form>
+            <a href="back.php">Get_headers</a>
+        </div>
+    </main>
+</body>
+</html>
