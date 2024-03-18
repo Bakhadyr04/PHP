@@ -1,0 +1,52 @@
+h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    background-color: yellowgreen;
+}
+
+#output {
+    width: 82%;
+    margin-bottom: 10px;
+    text-align: left;
+    border: 2px solid #000000;
+}
+
+#buttons button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 16px;
+    border: 2px solid #000000;
+}
+
+#clean {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#equal {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
