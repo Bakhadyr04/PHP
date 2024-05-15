@@ -3,41 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="calculator.php">
     <link rel="stylesheet" href="style.css">
-    <title>Calculator</title>
+    <title>Расулов Бахадыр</title>
 </head>
 <body>
     <header></header>
     <main>
-        <section class="wrapper grid" id="section">
-            <div id="calculator">
-                <h1>Calculator 3000 :)</h1>
-                <input class="gridScreen" type="text" id="output"></input>
-                <div id="buttons">
-                    <button id="one" class="btn">1</button>
-                    <button id="two" class="btn">2</button>
-                    <button id="three" class="btn">3</button>
-                    <button id="four" class="btn">4</button>
-                    <button id="five" class="btn">5</button>
-                    <button id="six" class="btn">6</button>
-                    <button id="seven" class="btn">7</button>
-                    <button id="eight" class="btn">8</button>
-                    <button id="nine" class="btn">9</button>
-                    <button class="zero" id="zero">0</button>
-                    <button class="gridArea" id="plus">+</button>
-                    <button class="gridArea" id="minus">-</button>
-                    <button class="gridArea" id="multiple" >*</button>
-                    <button class="gridArea" id="divide">/</button>
-                    <button class="gridArea" id="leftParenthesis">(</button>
-                    <button class="gridArea" id="rightParenthesis">)</button>
-                    <button class="gridArea">sin</button>
-                    <button class="gridArea">cos</button>
-                    <button class="gridArea">tan</button>
-                    <button class="gridArea">asin</button>
-                </div>
-                <button id="clean">Очистить</button>
-                <button id="equal">Вычислить</button>
+        <section class="wrapper">
+            <h1 class="h1">Calculator 3000 :)</h1>
+            <input class="screen" type="text" id="output" readonly></input>
+            <div style=" padding: 30px 0 0 12px; margin: 0; display: flex; gap: 10px;">
+                <button class="trigonametry">sin</button>
+                <button class="trigonametry">cos</button>
+                <button class="trigonametry">tan</button>
+                <button class="trigonametry">cot</button>
+            </div>
+            <div class="operation">
+                <button class="butt">1</button>
+                <button class="butt">2</button>
+                <button class="butt">3</button>
+                <button class="butt">4</button>
+                <button class="butt">5</button>
+                <button class="butt">6</button>
+                <button class="butt">7</button>
+                <button class="butt">8</button>
+                <button class="butt">9</button>
+                <button class="butt">0</button>
+                <button class="butt">(</button>
+                <button class="butt">)</button>
+                <button class="butt">+</button>
+                <button class="butt">-</button>
+                <button class="butt">*</button>
+                <button class="butt">/</button>
+                <button style="background-color: rgb(255, 0, 0);" id="clean">clean</button>
+                <button style="background-color: rgb(0, 89, 255);" id="count">count</button>
             </div>
         </section>
     </main>
